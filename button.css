@@ -1,0 +1,15 @@
+.btn{
+	border: none;
+	color: white;
+	padding: 14px 28px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#danger{
+	background: #f44336;
+}
+
+#danger:hover{
+	background-color: #da190b;
+}

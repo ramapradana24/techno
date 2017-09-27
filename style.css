@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background: grey;
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	box-shadow: 2px 2px 15px grey;
+}
+
+header ul{
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	display: block;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;
+	font-family: Tahoma;
+	transition: background 1s cubic-bezier(0.42, 0, 0, 0.99), color 1s cubic-bezier(0.42, 0, 0, 0.99);
+}
+
+header ul li a:hover{
+	background: #ccc;
+	color: grey;
+}
+
